@@ -26,7 +26,7 @@ for i in range(1,n):
             vnear = j 
     edge = (touch[vnear], vnear)
     f.add(edge)
-    # 새로운 정점이 y에 추가된 후에
+    # 새로운 정점이 y에 추가된 후에 
     # y에 없는 정점들에 대해서
     # 새로운 정점을 마지막으로 거쳤을 때의 거리가 
     # 기존의 최단 거리보다 더 짧은지 확인 후 갱신
